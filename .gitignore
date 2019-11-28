@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BlackJack/v16/Server/sqlite3
+/BlackJack.Api/bin/Debug/netcoreapp2.0
+/BlackJack.Api/obj
+/BlackJack.Core.Tests/bin/Debug/netcoreapp2.0
+/BlackJack.Core.Tests/obj
+/BlackJack.Services/bin/Debug
+/BlackJack.Services/obj
+*.user
+*.cache
+*.ncrunchsolution
+/BlackJack.Api/appsettings.Development.json
+/.vs/BlackJack/v16
