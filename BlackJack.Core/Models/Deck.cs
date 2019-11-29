@@ -20,6 +20,7 @@ namespace BlackJack.Core.Models
                 currentList.Remove(currentList.First());
             }
 
+            Cards = currentList;
             return cards;
         }
     }
