@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Core", "BlackJack.Services\BlackJack.Core.csproj", "{40F1E2AB-F1C3-4136-8674-062CFE1D6B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack.Api", "BlackJack.Api\BlackJack.Api.csproj", "{A2B0F638-FF87-40F7-B9FF-F4CE8276DE21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Api", "BlackJack.Api\BlackJack.Api.csproj", "{A2B0F638-FF87-40F7-B9FF-F4CE8276DE21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack.Core.Tests", "BlackJack.Core.Tests\BlackJack.Core.Tests.csproj", "{2FE6897E-FB25-4FD4-A732-6DFE5CDFBAC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Core.Tests", "BlackJack.Core.Tests\BlackJack.Core.Tests.csproj", "{2FE6897E-FB25-4FD4-A732-6DFE5CDFBAC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack.Core", "BlackJack.Core\BlackJack.Core.csproj", "{8AC7DA87-B1DD-4A75-AA8B-232982167FFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40F1E2AB-F1C3-4136-8674-062CFE1D6B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40F1E2AB-F1C3-4136-8674-062CFE1D6B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40F1E2AB-F1C3-4136-8674-062CFE1D6B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40F1E2AB-F1C3-4136-8674-062CFE1D6B07}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A2B0F638-FF87-40F7-B9FF-F4CE8276DE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A2B0F638-FF87-40F7-B9FF-F4CE8276DE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B0F638-FF87-40F7-B9FF-F4CE8276DE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{2FE6897E-FB25-4FD4-A732-6DFE5CDFBAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE6897E-FB25-4FD4-A732-6DFE5CDFBAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE6897E-FB25-4FD4-A732-6DFE5CDFBAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC7DA87-B1DD-4A75-AA8B-232982167FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC7DA87-B1DD-4A75-AA8B-232982167FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC7DA87-B1DD-4A75-AA8B-232982167FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC7DA87-B1DD-4A75-AA8B-232982167FFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

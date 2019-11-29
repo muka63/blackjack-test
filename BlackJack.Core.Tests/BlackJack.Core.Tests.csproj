@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlackJack.Core\BlackJack.Core.csproj" />
     <ProjectReference Include="..\BlackJack.Services\BlackJack.Core.csproj" />
   </ItemGroup>
 

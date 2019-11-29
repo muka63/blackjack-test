@@ -14,3 +14,6 @@
 *.ncrunchsolution
 /BlackJack.Api/appsettings.Development.json
 /.vs/BlackJack/v16
+/.vs/BlackJack/DesignTimeBuild
+/BlackJack.Core/bin/Debug
+/BlackJack.Core/obj
