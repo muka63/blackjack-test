@@ -10,6 +10,7 @@ namespace BlackJack.Core.Services
     public class GameService : IGameService
     {
         private readonly IDeckService _deckService;
+        private Deck _deck;
 
         public GameService(IDeckService deckService)
         {
@@ -18,7 +19,9 @@ namespace BlackJack.Core.Services
 
         public Game Start(string playerName)
         {
-            return new Game {Player = new Player {Name = playerName}, Dealer = new Dealer()};
+            _deck = _deckService.RetrieveNewDeck();
+            _deck = _deckService.ShuffleDeck(_deck);
+            return new Game {Player = new Player {Name = playerName, Hand = new Hand { Cards = _deck.DrawCards(2)}}, Dealer = new Dealer { Deck = _deck, Hand = new Hand { Cards = _deck.DrawCards(2)}}};
         }
 
     }

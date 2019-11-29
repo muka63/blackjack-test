@@ -4,5 +4,6 @@
     {
         public Hand Hand { get; set; }
         public Deck  Deck { get; set; }
+
     }
 }

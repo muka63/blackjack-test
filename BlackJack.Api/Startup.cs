@@ -21,6 +21,9 @@ namespace BlackJack.Api
         {
             services.AddTransient<IGameService, GameService>();
             services.AddTransient<IDeckService, DeckService>();
+            services.AddTransient<ICardService, CardService>();
+            services.AddTransient<IDeckBuilder, DeckBuilder>();
+            services.AddTransient<ISuitBuilder, SuitBuilder>();
             services.AddMvc();
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "BlackJack", Version = "v1"}); });

@@ -8,13 +8,11 @@ namespace BlackJack.Core.Tests.Services
 {
     public class DeckBuilderTests
     {
-        private IFixture _fixture;
-        private IDeckBuilder _deckBuilder;
-        private ISuitBuilder _suitBuilder;
+        private readonly IDeckBuilder _deckBuilder;
+        private readonly ISuitBuilder _suitBuilder;
 
         public DeckBuilderTests()
         {
-            _fixture = new Fixture();
             _suitBuilder = Substitute.For<ISuitBuilder>();
 
             var serviceCollection = new ServiceCollection();

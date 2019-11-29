@@ -17,3 +17,5 @@
 /.vs/BlackJack/DesignTimeBuild
 /BlackJack.Core/bin/Debug
 /BlackJack.Core/obj
+/BlackJack.Api.Tests/bin/Debug/netcoreapp3.0
+/BlackJack.Api.Tests/obj
