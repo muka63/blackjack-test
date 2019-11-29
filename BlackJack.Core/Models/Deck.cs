@@ -17,9 +17,7 @@ namespace BlackJack.Core.Models
             {
                 if (!currentList.Any()) {continue;}
                 cards.Add(currentList.First());
-                cards.Remove(currentList.First());
-
-
+                currentList.Remove(currentList.First());
             }
 
             return cards;
